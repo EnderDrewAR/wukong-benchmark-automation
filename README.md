@@ -8,7 +8,7 @@
 
 Проверка проводилась с русским интерфейсом игры. Для распознавания текста нужен русский компонент OCR Windows, для библиотеки Tesseract — Microsoft Visual C++ 2015–2022 Redistributable x64.
 
-1. Распакуйте архив `WukongBench-win-x64.zip` целиком.
+1. Скачайте [готовую программу](https://github.com/EnderDrewAR/wukong-benchmark-automation/releases/download/v1.0.0/WukongBench-win-x64.zip) и распакуйте архив целиком.
 2. Откройте эту папку в терминале PowerShell.
 3. Выполните команду:
 
@@ -108,3 +108,4 @@ dotnet publish WukongBench -c Release -r win-x64 --self-contained true -o artifa
 При обычной ошибке или отмене через Ctrl+C настройки восстанавливаются. При выключении питания нужно закрыть игру и вернуть их из `original-GameUserSettings.ini` в папке результатов.
 
 [Лицензии сторонних компонентов](THIRD-PARTY-NOTICES.md). В публичных примерах удалён идентификатор монитора; скриншоты и результаты не изменены.
+
