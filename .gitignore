@@ -7,3 +7,8 @@ artifacts/
 *.user
 *.suo
 original-GameUserSettings.ini
+
+# Local submission materials and OCR debug images
+/SUBMISSION.md
+/RELEASE_NOTES.md
+/examples/*/*-digits.png
